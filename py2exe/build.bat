@@ -9,7 +9,7 @@ md dist
 
 echo Updating Python script files...
 copy ..\extract.py extract
-copy ..\import.py import
+copy ..\import_script.py import\import.py
 copy ..\utils.py extract
 copy ..\utils.py import
 
