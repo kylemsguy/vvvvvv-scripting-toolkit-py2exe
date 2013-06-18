@@ -119,7 +119,7 @@ def script_to_raw(script_data):
 
     joined_raw_data = '|'.join(raw_data)
 
-    final_raw_data = "<script>" + joined_raw_data + "</script>\n"
+    final_raw_data = "\t<script>" + joined_raw_data + "</script>\n"
 
     return final_raw_data
 

@@ -31,3 +31,44 @@ e.g. if you've downloaded the archive to `~/Downloads`, and you wish to run the 
 
 `$ python extract.py`
 
+###Extra notes
+The same rules apply to the scripts that you import using this tool as with the internal script editor, except with a few exceptions:
+
+<table>
+<tr>
+<td><b>In .vvvvvv file     </b></td>
+<td><b>In VVVVVV</b></td>
+</tr>
+<tr>
+<td>&amp;quot;</td>
+<td>"</td>
+</tr>
+<tr>
+<td>&amp;amp;</td>
+<td>&amp;</td>
+</tr>
+<tr>
+<td>&amp;apos;</td>
+<td>'</td>
+</tr>
+<tr>
+<td>&amp;lt;</td>
+<td>&lt;</td>
+</tr>
+<tr>
+<td>&amp;gt;</td>
+<td>></td>
+</tr>
+<tr>
+<td>{</td>
+<td>&ouml;</td>
+</tr>
+<tr>
+<td>}</td>
+<td>&Aacute;</td>
+</tr>
+<tr>
+<td>~</td>
+<td>&aring;</td>
+</tr>
+</table>

@@ -60,6 +60,7 @@ def import_script(script_name=None, level_name=None):
     if not script_data:
         raise IOError
 
+    # Adding script data to level data in memory
     utils.import_script_data(level_data, script_data)
 
     # going hot!
